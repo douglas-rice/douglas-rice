@@ -11,10 +11,11 @@ body {
 
 header {
   background-color: #2e3438;
-  height: 75px;
+  height: 60px;
 }
 
 header h1 {
+  font-size: 1.6em;
   margin: 0;
   color: #fff;
   padding-top: 15px;
@@ -123,7 +124,7 @@ button {
   font-size: 18px;
   font-weight: 400;
   color: #FFF;
-  background-color: #ff6347;
+  background-color: #4682b4;
   width: 100%;
   padding: 18px 0;
   text-align: center;
@@ -163,7 +164,15 @@ textarea:focus {
 @media screen and (min-width: 760px) {
 
   body {
-    background: steelblue;
+    background: #4682b4;
+  }
+
+  header {
+    height: 75px;
+  }
+
+  header h1 {
+    font-size: 2em;
   }
 
   #banner {
