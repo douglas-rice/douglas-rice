@@ -121,11 +121,6 @@ footer {
   border-radius: 5px;
 }
 
-.col1 img,
-.col2 img {
-  opacity: .9;
-}
-
 .col h4 {
   font-weight: 400;
   margin-top: 5px;
@@ -134,7 +129,7 @@ footer {
 }
 
 .skills h1 {
-  margin-top: 20px;
+  margin-top: -20px;
   margin-bottom: 0;
 }
 
@@ -231,23 +226,20 @@ footer {
     padding-bottom: 0;
   }
 
+  .work p {
+    font-size: 1em;
+  }
+
   .col {
     float: left;
-    width: 33%;
+    width: 50%;
   }
 
-  .col h4 {
-    margin-top: 5px;
-    margin-bottom: 0;
-  }
-
-  .col1,
-  .col2 {
+  .col1 {
     padding-right: .5em;
   }
 
-  .col2,
-  .col3 {
+  .col2 {
     padding-left: .5em;
   }
 
