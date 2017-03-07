@@ -17,11 +17,11 @@
 
 button.navbar-toggle.collapsed:hover {
   color: #fff;
-  background: #014c8c;
+  background: #365069;
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-    background-color: #014c8c;
+    background-color: #365069;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
